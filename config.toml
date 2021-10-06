@@ -1,4 +1,4 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'Home pagina'
+title = 'Home'
 theme = "OnzeTheme" 
