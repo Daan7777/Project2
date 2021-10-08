@@ -16,7 +16,7 @@
     </div>
   </div>
   <div class="col-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center">
-    <img src="/images/homepage2.png" alt="Homepage foto1" class="max-w-md">
+    <img src="{{ .Params.image1 }}" alt="Homepage foto1" class="max-w-md">
   </div>
 </div>
 </div>
@@ -24,7 +24,7 @@
 <div class="bg-gray-50 text-gray-600 px-6 lg:px-8 pt-12 pb-20">
 <div class="max-w-screen-xl mx-auto grid grid-cols-2 gap-8 lg:gap-24 md:items-center">
   <div class="col-span-2 md:col-span-1 flex flex-row space-x-2">
-    <img src="/images/rustige-werkomgeving.jpg" alt="Homepage foto2">
+    <img src="{{ .Params.image2 }}" alt="Homepage foto2">
   </div>
   <div class="col-span-2 md:col-span-1">
     <h2 class="text-2xl sm:text-3xl  lg:text-4xl text-gray-700 font-medium mb-6">Verschillende diensten</h2>
@@ -42,7 +42,7 @@
 
       <!-- kaart 1 -->
       <div class="bg-white border border-gray-200 p-8 lg:p-12 text-center space-y-6">
-        <img src="/images/ruby.png" alt="User placeholder" class="mx-auto rounded-md">
+        <img src="{{ .Params.imageuser1 }}" alt="User1" class="mx-auto rounded-md">
         <div class="space-y-1">
           <span class="text-xl font-semibold text-gray-700 block">Robin van Deutekom</span>
           <span class="text-base font-semibold text-gray-500 block">Eigenaar</span>
@@ -62,7 +62,7 @@
 
             <!-- kaart 3 -->
             <div class="bg-white border border-gray-200 p-8 lg:p-12 text-center space-y-6">
-              <img src="/images/banaan.png" alt="User placeholder" class="mx-auto rounded-md">
+              <img src="{{ .Params.imageuser2 }}" alt="User2" class="mx-auto rounded-md">
               <div class="space-y-1">
                 <span class="text-xl font-semibold text-gray-700 block">Daniël van Montfoort</span>
                 <span class="text-base font-semibold text-gray-500 block">Eigenaar</span>
