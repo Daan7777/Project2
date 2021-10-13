@@ -1,5 +1,6 @@
+<!-- Head word automatisch op elke pagina gezet. -->
 <head>
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }}</title> <!-- Lijn 2 tot 13 zorgt er voor dat er een logo in de URL staat naast de Title. -->
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -9,7 +10,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-config" content="/img/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-</head>
+</head> 
 {{ $styles := resources.Get "css/styles.scss" | toCSS | postCSS (dict "config" "./assets/css/postcss.config.js") }}
 {{ if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}">
