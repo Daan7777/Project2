@@ -8,10 +8,19 @@ slogan: "Diensten."
 description: "SubNetworks levert maatwerk ICT Diensten en oplossingen in omgeving Den Helder en omstreken, ICT Diensten, Oplossingen & Advies op maat"
 header: "true"
 image: "/images/homepage-2.jpg"
-image1: "/images/Telefoons1.jpg"
-image2: "/images/code1.png"
-image3: "/images/PC.png"
-content1: "Telefoon repareren, bestanden overzetten of hulp? <br > Wij doen het allemaal en voor de laagste prijs."
-content2: "Een website laten ontwikkelen? Dan bent u op de juiste plek gekomen, wij maken super sites met hele goede snelheid en kwaliteit."
-content3: "Bij ons kun je veilig en vertrouwd jou PC laten bouwen, vraag een offerte aan en laat je nieuwe PC door ons bouwen!"
+topcontent1: "Computerhulp bij jou thuis is niet alleen gemakkelijk, maar ook snel gedaan omdat het jouw tijd scheelt en je er helemaal niets voor hoeft te doen."
+topcontent2: "Bij ons kun je veilig en vertrouwd jou PC laten bouwen, vraag een offerte aan en laat je nieuwe PC door ons bouwen!"
+topcontent3: "Bij ons kan je jou telefoon laten repareren van een nieuw scherm tot een hele nieuwe batterij, hierbij voor de laagste prijs."
 ---
+
+{{< blok1 "/images/Telefoons1.jpg" >}} 
+{{< blok1content title="Telefoons" p="Telefoon repareren, bestanden overzetten of hulp? Wij doen het allemaal en voor de laagste prijs." link="/telefoons"  >}}
+{{< /blok1 >}}
+
+{{< blok2 "/images/code1.png" >}} 
+{{< blok2content title="Website Ontwikkelen" p="Een website laten ontwikkelen? Dan bent u op de juiste plek gekomen, wij maken super sites met hele goede snelheid en kwaliteit." link="/website"  >}}
+{{< /blok2 >}}
+
+{{< blok1 "/images/PC.png" >}} 
+{{< blok1content title="PC bouwen" p="Bij ons kun je veilig en vertrouwd jou PC laten bouwen, vraag een offerte aan en laat je nieuwe PC door ons bouwen!" link="/computer"  >}}
+{{< /blok1 >}}
