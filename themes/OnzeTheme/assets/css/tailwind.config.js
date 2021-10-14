@@ -6,12 +6,13 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      black: colors.black,
+      indigo: colors.indigo,
       white: colors.white,
       gray: colors.trueGray,
-      indigo: colors.indigo,
+      blue: colors.blue,
       red: colors.rose,
       yellow: colors.amber,
+      green: colors.emerald
     }
   }
 }
