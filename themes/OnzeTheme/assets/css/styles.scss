@@ -2,12 +2,33 @@
 @import "node_modules/tailwindcss/components";
 @import "node_modules/tailwindcss/utilities";
 
+.white {
+  color: white
+}
+
+.gray {
+  color:#E5E7EB
+}
+
+/* navbar CSS */
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+  background-color:white
+}
+
+.sticky-front {
+  z-index: 9999;
+}
+
 /* footer CSS */
 
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
+    background-color:#3B82F6;
+    color:#000000;
   }
   
   .footer-basic ul {
@@ -60,6 +81,6 @@
     margin-top:15px;
     text-align:center;
     font-size:13px;
-    color:#aaa;
+    color:rgb(102, 102, 102);
     margin-bottom:0;
   }
