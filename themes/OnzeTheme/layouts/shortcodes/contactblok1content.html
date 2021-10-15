@@ -1,0 +1,22 @@
+<div class="max-w-screen-xl mx-auto text-center">
+    <h2 class="text-2xl sm:text-3xl md:text-4xl text-gray-700 font-medium">{{ .Get "title" }}</h2>
+    <p class="text-xl lg:text-2xl text-gray-600 mt-2">{{ .Get "p" }}</p>
+  </div>
+  <div class="md:grid md:grid-cols-2 md:gap-12 max-w-screen-xl mx-auto mt-12">
+    <div>
+      <span class="font-semibold text-lg mb-2 block">{{ .Get "title" }}:</span>
+    <form action="post" class="block mt-6 space-y-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <input type="text" class="bg-white w-full border border-gray-300 rounded-md py-3 px-3" placeholder="Voornaam">
+      <input type="text" class="bg-white w-full border border-gray-300 rounded-md py-3 px-3" placeholder="Achternaam">
+    </div>
+    <div>
+      <input type="email" class="bg-white w-full border border-gray-300 rounded-md py-3 px-3" placeholder="Email">
+    </div>
+    <div>
+      <textarea rows="5" class="bg-white w-full border border-gray-300 rounded-md py-3 px-3" placeholder="Bericht"></textarea>
+    </div>
+    <div>
+      <button class="block w-full bg-gray-600 font-semibold rounded-lg py-4 px-5 lg:px-8 text-white mt-4">{{ .Get "p2" }}</button>
+    </div>
+</form>
