@@ -1,4 +1,26 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
 title = 'SubNetworks'
 theme = "OnzeTheme" 
+
+languageCode = 'en-us'
+DefaultContentLanguage = "en"
+paginate = 12
+
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
+  author = "Praveen Juge"
+  github = "https://github.com/praveenjuge"
+  facebook = "https://facebook.com/praveenjuge"
+  og_image = "/images/og.png"
+  sitename = "Example Site Name"
+  twitter = "@praveenjuge"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
