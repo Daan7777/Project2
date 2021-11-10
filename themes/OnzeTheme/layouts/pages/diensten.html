@@ -1,4 +1,19 @@
 {{ define "main" }}
+<meta property="og:type" content="website" /> 
+<meta name="author" content="{{ .Site.Params.author }}" />
+<script defer type="application/ld+json">
+  { 
+    "@context": "http://schema.org", 
+    "@type": "WebSite", 
+    "url": "{{ .Permalink }}", 
+    "sameAs": [
+      "{{ .Site.Params.facebook }}", 
+      "{{ .Site.Params.github }}"
+    ], 
+    "name": "{{ .Title }}", 
+    "logo": "https://www.example.com/images/brand/favicon.png" 
+  }
+</script>
 <div class="bg-blue-200">
   <div class="bg-blue-200 md:grid md:grid-cols-3 md:gap-12 max-w-screen-xl mx-auto mt-12 lg:mt-20 space-y-12 md:space-y-0">
     <div class="text-center">
