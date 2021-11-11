@@ -11,4 +11,9 @@ image: "/images/homepage-2.jpg"
 image1: "/images/pc-bouwen.png"
 image2: "/images/pc-reparatie.jpg"
 image3: "/images/recovery.jpg"
+permalink: .Permalink 
 ---
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
