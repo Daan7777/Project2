@@ -11,6 +11,7 @@ image: "/images/homepage-2.jpg"
 topcontent1: "Computerhulp bij jou thuis is niet alleen gemakkelijk, maar ook snel gedaan omdat het jouw tijd scheelt en je er helemaal niets voor hoeft te doen."
 topcontent2: "Bij ons kun je veilig en vertrouwd jou PC laten bouwen, vraag een offerte aan en laat je nieuwe PC door ons bouwen!"
 topcontent3: "Bij ons kan je jou telefoon laten repareren van een nieuw scherm tot een hele nieuwe batterij, hierbij voor de laagste prijs."
+permalink: .Permalink 
 ---
 
 {{< blok1 "/images/Telefoons1.jpg" >}} 
@@ -24,3 +25,7 @@ topcontent3: "Bij ons kan je jou telefoon laten repareren van een nieuw scherm t
 {{< blok1 "/images/PC.png" >}} 
 {{< blok1content title="PC bouwen" p="Bij ons kun je veilig en vertrouwd jou PC laten bouwen, vraag een offerte aan en laat je nieuwe PC door ons bouwen!" link="/computer"  >}}
 {{< /blok1 >}}
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
