@@ -11,4 +11,9 @@ image: "/images/homepage-2.jpg"
 image1: "/images/iphone13.png"
 image2: "/images/papier.png"
 image3: "/images/google.png"
+permalink: .Permalink 
 ---
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
