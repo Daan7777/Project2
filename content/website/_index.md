@@ -11,4 +11,9 @@ image: "/images/homepage-2.jpg"
 image1: "/images/website-bouwen.jpg"
 image2: "/images/grote-website-bouwen.jpg"
 image3: "/images/website+hosting.png"
+permalink: .Permalink 
 ---
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
