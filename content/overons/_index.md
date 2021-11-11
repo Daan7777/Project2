@@ -7,4 +7,9 @@ layout: "overons"
 image1: "/images/over-ons.jpg"
 imageuser1: "/images/ruby.png"
 imageuser2: "/images/banaan.png"
+permalink: .Permalink 
 ---
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
