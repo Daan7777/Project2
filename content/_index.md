@@ -10,4 +10,9 @@ image1: "/images/homepage2.png"
 image2: "/images/rustige-werkomgeving.jpg"
 imageuser1: "/images/ruby.png"
 imageuser2: "/images/banaan.png"
+permalink: .Permalink 
 ---
+
+{{< blok3 >}} 
+{{< blok3content >}}
+{{< /blok3 >}}
