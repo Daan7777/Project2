@@ -23,7 +23,7 @@
   <!-- Dit is de header die op elke pagina word gezet, als de index.md dat toelaat. -->
   <!-- "if isset .Params "header"" kijkt of in de _index.md er staat: header= "true"  Zo ja dan word de header op de pagina gezet. -->
   {{ if isset .Params "header" }} 
-  <div class="bg-blue-200 px-6 lg:px-8">
+  <div class="bg-gray-200 px-6 lg:px-8">
     <div class="max-w-screen-xl mx-auto grid grid-cols-2 ">
       <div class="col-span-2 md:col-span-1 py-12 lg:py-20 relative z-20">
         <h2 class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-gray-700 font-medium mb-6">{{ .Params.title }}</h2> <!-- ".Params.title" Plaatst de title die in de _index.md staat. -->
@@ -31,7 +31,7 @@
         <p class="text-xl text-gray-600">{{ .Params.description }}</p> <!-- ".Params.description" Plaatst de description die in de _index.md staat. -->
       </div>
       <div class="col-span-2 md:col-span-1 relative">
-        <svg class="text-blue-200 hidden md:block absolute left-0 inset-y-0 h-full w-48 transform -translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <svg class="text-gray-200 hidden md:block absolute left-0 inset-y-0 h-full w-48 transform -translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none">
           <polygon points="50,0 100,0 50,100 0,100"></polygon>
         </svg>
         <img src="{{ .Params.image }}" alt="foto" class="min-h-full object-cover"> <!-- ".Params.image" Zet de image van die _index.md in de grote afbeelding plek. -->
