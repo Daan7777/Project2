@@ -9,7 +9,7 @@ module.exports = {
       indigo: colors.indigo,
       white: colors.white,
       gray: colors.trueGray,
-      blue: colors.blue,
+      blue: colors.trueGray,
       red: colors.rose,
       yellow: colors.amber,
       green: colors.emerald
